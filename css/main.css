@@ -1,0 +1,300 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #d1d1d1;
+}
+
+h1, h2, h3{
+  margin: 0;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+header{
+  float: left;
+  height: 1000px;
+  width: 100%;
+  background: url("../img/waves.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/*line class for making sexy lines*/
+.line{
+  height: 1px;
+  background-color: white;
+  /*border-radius: 0px;
+  border-style: solid;*/
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  margin: 5px 0px;
+  transform: translateX(-50%);
+}
+
+.line_body{
+  height: 1px;
+  background-color: #0D3042;
+  /*border-radius: 0px;
+  border-style: solid;*/
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  margin: 5px 0px;
+  transform: translateX(-50%);
+  margin-top: 1%;
+}
+
+.banner{
+  float: left;
+  margin: 0;
+  height: 31%;
+  width: 50%;
+  position: absolute;
+  text-align: center;
+  font-size: 3em;
+  top: 45%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  float: left;
+}
+
+.learn_more{
+  float: left;
+  margin: 3% 0;
+  height: 10%;
+  width: 15%;
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  left: 50%;
+  transform: translateY(-70%) translateX(-50%);
+  border-radius: 0px;
+  border-style: solid;
+  border-color: white;
+  transition: all 0.5s ease;
+}
+
+.learn_more h1{
+  font-size: 300%;
+  top: 50%;
+  transform: translateY(-50%);
+  color:white;
+  position: relative;
+}
+
+.learn_more:hover{
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+#nav_bar{
+  float: left;
+  height: 96px;
+  width: 100%;
+  background-color: #0D3042;
+  position: relative;
+}
+
+.logo{
+  float: left;
+  height: 100%;
+  width: 15%;
+  position: relative;
+  display: flex;
+  left: 0.7%;
+  top: 6%;
+}
+
+.logo h1{
+  /*top: 50%;
+  transform: translateY(-50%);*/
+  font-size: 250%;
+}
+
+.logo i{
+  padding-right: 10px;
+  font-size: 200%;
+}
+
+.menu{
+  height: 100%;
+  width: 45%;
+  float: right;
+}
+
+.menu ul{
+  position: relative;
+  top: 20%;
+}
+
+.menu li{
+  display: inline-block;
+  font-size: 150%;
+  padding: 0 15px;
+  transition: all 0.5s ease;
+}
+
+.menu li:hover{
+  color: #828282;
+}
+
+#about_me{
+  padding-top: 6%;
+  height: 900px;
+  width: 100%;
+  float: left;
+  background-color: #d1d1d1;
+  position: relative;
+}
+
+.about_me_container{
+  float: left;
+  height: 30%;
+  width: 25%;
+  color: #828282;
+  /*text-shadow: #000 2.5px 2px;
+  background: rgba(13, 48, 66, 0.75);*/
+  display: inline-block;
+  margin: 10px 40px;
+  transform: translateY(-10%);
+  padding: 0px 1.995%;
+  padding-top: 1%;
+  font-size: 1.25em;
+  overflow: auto;
+}
+
+.personal_me{
+  float: left;
+  height: 500px;
+  width: 35%;
+  background-color: green;
+  margin-top: 4%;
+  background: url("../img/wave_girl.jpg");
+  background-position: center;
+  border-radius: 100%;
+  position: relative;
+}
+
+.personal_text{
+  float: left;
+  color: #828282;
+  width: 60%;
+  height: 265px;
+  position: relative;
+}
+
+.personal_text p{
+  margin-top: 8%;
+  margin-left: 5%;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+.personal_text_2{
+  position: relative;
+  margin-top: 1%;
+  float: left;
+  /*background-color: green;*/
+  margin-left: 5%;
+  height: 15%;
+  width: 25%;
+  color: #828282;
+}
+
+.p_text_cont{
+  float: left;
+  height: 60%;
+  width: 50%;
+  position: relative;
+  top: 55%;
+  left: 44%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.personal_text_2 i{
+  color: #0D3042;
+  float: left;
+  font-size: 350%;
+  position: relative;
+  top: 40%;
+  left: 15%;
+  transform: translateY(-40%);
+}
+
+#skills{
+  padding-top: 1%;
+  color: #828282;
+  float: left;
+  height: 450px;
+  width: 100%;
+  position: relative;
+}
+.skills_cont{
+  height: 125%;
+  width: 100%;
+}
+
+.skills_cont h1{
+  color: #696969;
+  text-align: center;
+  font-size: 3em;
+  padding-top: 2%;
+}
+
+.skills_text{
+  height: 40%;
+  width: 40%;
+  overflow: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+.contact_me{
+  top: 72%;
+  height: 57px;
+  width: 11%;
+  margin-left: 30%;
+  position: absolute;
+  text-align: center;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: rgba(13, 48, 66, 0.9);
+  transition: all 0.5s ease;
+}
+
+.contact_me h1{
+  padding-top: 9px;
+  color: rgba(13, 48, 66, 0.9);
+  font-size: 210%;
+  position: relative;
+}
+
+.contact_me:hover{
+  background-color: rgba(27, 100, 138, 0.25);
+}
+
+#quotes{
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 550px;
+  background-color: blue;
+  text-align: center;
+  font-size: 200%;
+}
+
+.quote-1{
+  padding-top: 6.5%;
+}
+
+.quote-1-name{
+  padding-top: 3%;
+}
