@@ -32,7 +32,7 @@
       <div class="menu">
         <ul>
           <li><a href="">Home</a></li>
-          <li><a href="#about_me">About</a></li>
+          <li><a href="">About</a></li>
           <li><a href="">Skills</a></li>
           <li><a href="">Resume</a></li>
           <li><a href="">Testimonials</a></li>
@@ -42,8 +42,8 @@
       </div>
     </section>
     <!-- about me section -->
-    <section id="about_me">
-      <article class="about_me_container">
+    <section id="about_me_main">
+      <article class="about_me_container" id="about_me">
         <h1>Values</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -128,12 +128,24 @@
       </div>
     </section>
     <section id="quotes">
-      <div class="quote-1">
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        <div class="quote-1-name">
-          John Doe
+      <div class="quote-holder">
+        <div class="quote-1" id="quote-1">
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          <div class="quote-1-name">
+            John Doe
+          </div>
         </div>
       </div>
     </section>
+    <!-- google-analytics script -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-77536109-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   </body>
 </html>
