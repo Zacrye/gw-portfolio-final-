@@ -16,7 +16,7 @@
         <h1>Web & Graphic Designer</h1>
         <div class="line"></div>
       </div>
-      <a href="#about_me">
+      <a href="#nav_bar">
         <div class="learn_more">
           <h1>Learn More</h1>
         </div>
@@ -32,12 +32,12 @@
       <div class="menu">
         <ul>
           <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Skills</a></li>
+          <li><a href="#about_me">About</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="">Resume</a></li>
           <li><a href="">Testimonials</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact_me">Contact</a></li>
         </ul>
       </div>
     </section>
@@ -61,6 +61,8 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </article>
+    </section>
+    <section id="about-me-2">
       <!-- picture for about_me section -->
       <div class="personal_me"></div>
       <!-- more text for next to picture of about_me section -->
@@ -112,7 +114,6 @@
       <div class="skills_cont">
         <div class="line_body"></div>
         <h1>My Skills</h1>
-        <!-- paragraph describing my 'skills' -->
         <div class="skills_text">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -120,23 +121,108 @@
             Lorem ipsum dolor sit amet. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           </p>
         </div>
-        <a href="#contact">
-          <div class="contact_me">
+        <a href="#contact_me">
+          <div class="contact_me_button">
             <h1>Contact Me</h1>
           </div>
         </a>
       </div>
     </section>
+    <!-- quote section -->
     <section id="quotes">
       <div class="quote-holder">
         <div class="quote-1" id="quote-1">
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           <div class="quote-1-name">
-            John Doe
+            - John Doe
           </div>
+        </div>
+        <div class="button_holder">
+          <input type="radio" name="radio-set" checked="checked" id="st-control-1"/>
+          <a href="#quote-1"></a>
+
+          <input type="radio" name="radio-set" id="st-control-2"/>
+          <a href="#quote-2"></a>
+
+          <input type="radio" name="radio-set" id="st-control-3"/>
+          <a href="#quote-3"></a>
         </div>
       </div>
     </section>
+    <!-- portfolio section -->
+    <section id="portfolio">
+      <div class="text-div">
+        <div class="line_body"></div>
+        <h1>Portfolio</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="img-div">
+        <div class="img-holder">
+          <img src="img/sea-person-holiday-vacation.jpg" alt="" />
+          <img src="img/beach_1.jpg" alt="" />
+          <img src="img/sea-nature-sunny-beach.jpg" alt="" />
+          <img src="img/beach_1.jpg" alt="" />
+          <img src="img/pexels-photo.jpg" alt="" />
+          <img src="img/surfer_guy.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- contact me section -->
+    <section id="contact_me">
+      <div class="contact-info">
+        <h1>CONTACT ME</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          <br><br><br>
+          122 33rd Street East
+          <br><br>
+          Saskatoon, SK
+          <br><br>
+          S7K 19R
+          <br><br><br>
+          <span style="color: rgba(13, 48, 66, 1);">Email : </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;info@aeven.com
+          <br>
+          <span style="color: rgba(13, 48, 66, 1);">Phone : </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1-302-222
+        </p>
+      </div>
+      <div class="form-box">
+        <form class="" action="submit" method="post">
+          <!-- div for name -->
+          <div class="contact-name">
+            <label for="name">Name*</label>
+            <input type="text" placeholder=""/>
+          </div>
+          <!-- div for email -->
+          <div class="contact-email">
+            <label for="email">Email*</label>
+            <input type="text" placeholder=""/>
+          </div>
+          <!-- div for message -->
+          <div class="contact-message">
+            <label for="message">Message*</label>
+            <input type="text" placeholder=""/>
+          </div>
+          <div class="contact-sumbit">
+            <button type="sumbit">CONTACT ME</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="copyright">
+        <p>
+          Powered By &copy;Aeven - Built With Love <span class="fa fa-heart"></span>
+        </p>
+      </div>
+      <div class="sm-icons">
+        <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.tumblr.com"><i class="fa fa-tumblr"></i></a>
+      </div>
+    </footer>
     <!-- google-analytics script -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
